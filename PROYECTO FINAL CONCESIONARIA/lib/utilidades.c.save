@@ -1,0 +1,184 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <windows.h>
+
+// librerias
+#include "./autos.h"
+#include "./personal.h"
+#include "./utilidades.h"
+#include "./gotoxy.h"
+
+// Archivos
+#define ARCHIVO_PERSONAL "./archivos/personal.bin"
+#define ARCHIVO_AUTOS "./archivos/autos.bin"
+
+
+
+int verificarArchivos(char nombre[])
+{
+    int creado = 0;
+    FILE* archivo = fopen(ARCHIVO_PERSONAL, "r+b");
+    if(archivo != NULL)
+    {
+        fclose(archivo);
+    }
+    else
+    {
+        archivo = fopen(ARCHIVO_PERSONAL, "wb");
+        if(archivo != NULL)
+        {
+            printf("Archivo personal creado.\n");
+            fclose(archivo);
+            creado = 1;
+        }
+        else
+        {
+            printf("No se pudo generar el archivo personal.\n");
+        }
+    }
+    return creado;
+}
+
+
+void escribirTexto(char texto[], int milisegundosBorrando, int milisegundosEnBorrar)
+{
+
+    for(int i = 0; i< strlen(texto); i++)
+    {
+        printf("%c", texto[i]);
+        Sleep(milisegundosBorrando);
+    }
+    Sleep(milisegundosEnBorrar);
+    for(int i = 0; i< strlen(texto); i++)
+    {
+        printf("\b \b");
+        Sleep(milisegundosBorrando);
+    }
+}
+
+void borrarArchivo(char nombre[])
+{
+    FILE* archivo = fopen(nombre, "w+b");
+    if(archivo != NULL)
+    {
+        fclose(archivo);
+    }
+    else
+    {
+        printf("No se pudo Borrar el archivo personal.\n");
+    }
+}
+
+void inicioSesion()
+{
+    /////////////               Verificar Que existan los archivos Archivos /////////////
+
+    stPersonal persona;   // guardo la estructura del gerente o vendedor.
+    int intentos = 1;
+    do
+    {
+
+        if(verificarArchivos(ARCHIVO_PERSONAL))
+        {
+            // cargando user de pruebas si tuvo que crear archivos, para que la primera vez tenga algo para entrar y crear mas users.
+            guardarPersona((stPersonal){0, "Gerente","Gerente", "1234",1 });
+            guardarPersona((stPersonal){1, "Vendedor","Vendedor", "1234",0});
+        }
+        verificarArchivos(ARCHIVO_AUTOS);
+        system("cls");
+
+
+        /////////////               Home page /////////////
+        do
+        {
+            system("cls");
+            if(intentos>0)
+            {
+              gotoxy(4,26);printf("Intento %d/3", intentos);
+            }
+            persona = menuInicio();
+            intentos++;
+        }
+        while(intentos <= 3 && persona.flagAdmin == -1);
+
+        /////////////               Gerente /////////////
+        if(persona.flagAdmin == 1)
+        {
+            int option = 0;
+            do
+            {
+                system("cls");
+                option = menuGerenete_homePage(persona);
+            } while(option != 0);
+
+        }
+        /////////////               Vendedor /////////////
+        if(persona.flagAdmin == 0)
+        {
+            int option = 0;
+            do
+            {
+                system("cls");
+                printf("\t\t\t\tBienvenido Vendedor: %s\n", persona.nombre);
+                option = menuVendedor_homePage(persona);
+            } while(option != 0);
+        }
+        /////////////               Pasado 3 intentos /////////////
+        if(persona.flagAdmin == -1)
+        {
+            gotoxy(25,15);printf("\tError al iniciar sesi%cn (%s), reinicie el sistema. \n", persona.nombre);
+            gotoxy(32,16);printf("Presione una tecla para cerrar");
+            int pausa=getch();
+        } else
+        {
+            intentos = 0;
+        }
+    }while(intentos < 3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Parte grafica
+void dibujarCaja(int xSup,int ySup,int xInf, int yInf,int valoresAscii[5],int colorBordes) //ValoresAscii:
+{                                                                           //izq-sup,der-sup,izq-inf,der-inf,horizontal,vertical
+    color(colorBordes);
+    int a,b=0;
+
+
+    //HORIZONTAL
+    for(a=xSup;a<=xInf;a++)
+    {
+        gotoxy(a,ySup);printf("%c",valoresAscii[4]);
+        gotoxy(a,yInf);printf("%c",valoresAscii[4]);
+    }
+
+    //VERTICAL
+    for(b=ySup;b<=yInf;b++)
+    {
+        gotoxy(xSup,b);printf("%c",valoresAscii[5]);
+        gotoxy(xInf,b);printf("%c",valoresAscii[5]);
+    }
+    //esquinas. de izquiera a derecha y arriba hacia abajo
+    gotoxy(xSup,ySup);printf("%c",valoresAscii[0]);
+    gotoxy(xInf,ySup);printf("%c",valoresAscii[1]);
+    gotoxy(xSup,yInf);printf("%c",valoresAscii[2]);
+    gotoxy(xInf,yInf);printf("%c",valoresAscii[3]);
+
+}
+
+void desactivarMaximizar(){
+	HWND consoleWindow;
+	consoleWindow = GetConsoleWindow();
+	SetWindowLong(consoleWindow, GWL_STYLE,GetWindowLong(consoleWindow, GWL_STYLE) & ~WS_MAXIMIZEBOX & ~WS_SIZEBOX);
+}
+

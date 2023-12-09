@@ -1,0 +1,608 @@
+# depslib dependency file v1.0
+1665775081 source:g:\otros ordenadores\mi portátil\carpeta drive\utn\2º cuatrimestre\programacion\trabajo practico n5 - arbol\concesionaria utn\lib\personal.c
+
+1666012627 source:g:\otros ordenadores\mi portátil\carpeta drive\utn\2º cuatrimestre\programacion\trabajo final\concesionaria utn-20221015t004401z-001\concesionaria utn\lib\personal.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<windows.h>
+	"./personal.h"
+
+1665862279 source:g:\otros ordenadores\mi portátil\carpeta drive\utn\2º cuatrimestre\programacion\trabajo final\concesionaria utn-20221015t004401z-001\concesionaria utn\lib\autos.c
+
+1665862279 source:c:\users\equipo\desktop\carpeta drive\utn\2º cuatrimestre\programacion\trabajo final\concesionaria utn-20221015t004401z-001\concesionaria utn\lib\autos.c
+
+1665760680 source:c:\users\equipo\desktop\carpeta drive\utn\2º cuatrimestre\programacion\trabajo final\concesionaria utn-20221015t004401z-001\concesionaria utn\lib\personal.c
+
+1665883124 source:c:\users\equipo\desktop\carpeta drive\utn\2º cuatrimestre\programacion\trabajo final\concesionaria utn-20221015t004401z-001\concesionaria utn\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<windows.h>
+	"./lib/autos.h"
+	"./lib/personal.h"
+
+1665863720 c:\users\equipo\desktop\carpeta drive\utn\2º cuatrimestre\programacion\trabajo final\concesionaria utn-20221015t004401z-001\concesionaria utn\lib\autos.h
+
+1665882106 c:\users\equipo\desktop\carpeta drive\utn\2º cuatrimestre\programacion\trabajo final\concesionaria utn-20221015t004401z-001\concesionaria utn\lib\personal.h
+
+1666012720 source:g:\otros ordenadores\mi portátil\carpeta drive\utn\2º cuatrimestre\programacion\trabajo final\concesionaria utn-20221015t004401z-001\concesionaria utn\lib\utilidades.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<windows.h>
+	"./utilidades.h"
+
+1666012720 g:\otros ordenadores\mi portátil\carpeta drive\utn\2º cuatrimestre\programacion\trabajo final\concesionaria utn-20221015t004401z-001\concesionaria utn\lib\utilidades.h
+
+1666012679 source:g:\otros ordenadores\mi portátil\carpeta drive\utn\2º cuatrimestre\programacion\trabajo final\concesionaria utn-20221015t004401z-001\concesionaria utn\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<windows.h>
+	"./lib/autos.h"
+	"./lib/personal.h"
+	"./lib/utilidades.h"
+
+1665863715 g:\otros ordenadores\mi portátil\carpeta drive\utn\2º cuatrimestre\programacion\trabajo final\concesionaria utn-20221015t004401z-001\concesionaria utn\lib\autos.h
+
+1666012535 g:\otros ordenadores\mi portátil\carpeta drive\utn\2º cuatrimestre\programacion\trabajo final\concesionaria utn-20221015t004401z-001\concesionaria utn\lib\personal.h
+
+1668043817 source:g:\otros ordenadores\mi portátil\carpeta drive\utn\2º cuatrimestre\programacion\trabajo final\concesionaria utn\lib\autos.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"./autos.h"
+	"./personal.h"
+	"./utilidades.h"
+	"./gotoxy.h"
+
+1668043032 source:g:\otros ordenadores\mi portátil\carpeta drive\utn\2º cuatrimestre\programacion\trabajo final\concesionaria utn\lib\personal.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"./autos.h"
+	"./personal.h"
+	"./utilidades.h"
+	"./gotoxy.h"
+
+1668036903 g:\otros ordenadores\mi portátil\carpeta drive\utn\2º cuatrimestre\programacion\trabajo final\concesionaria utn\lib\personal.h
+
+1668039921 source:g:\otros ordenadores\mi portátil\carpeta drive\utn\2º cuatrimestre\programacion\trabajo final\concesionaria utn\lib\utilidades.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"./autos.h"
+	"./personal.h"
+	"./utilidades.h"
+	"./gotoxy.h"
+
+1667344451 g:\otros ordenadores\mi portátil\carpeta drive\utn\2º cuatrimestre\programacion\trabajo final\concesionaria utn\lib\utilidades.h
+
+1668043306 source:g:\otros ordenadores\mi portátil\carpeta drive\utn\2º cuatrimestre\programacion\trabajo final\concesionaria utn\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	"./lib/autos.h"
+	"./lib/personal.h"
+	"./lib/utilidades.h"
+	"./lib/gotoxy.h"
+
+1668041887 g:\otros ordenadores\mi portátil\carpeta drive\utn\2º cuatrimestre\programacion\trabajo final\concesionaria utn\lib\autos.h
+
+1667344393 source:c:\users\equipo\desktop\carpeta drive\utn\2º cuatrimestre\programacion\trabajo final\concesionaria utn\lib\autos.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"./autos.h"
+	"./personal.h"
+	"./utilidades.h"
+	"./gotoxy.h"
+
+1666396084 c:\users\equipo\desktop\carpeta drive\utn\2º cuatrimestre\programacion\trabajo final\concesionaria utn\lib\autos.h
+
+1667350650 c:\users\equipo\desktop\carpeta drive\utn\2º cuatrimestre\programacion\trabajo final\concesionaria utn\lib\personal.h
+
+1667344451 c:\users\equipo\desktop\carpeta drive\utn\2º cuatrimestre\programacion\trabajo final\concesionaria utn\lib\utilidades.h
+
+1667350972 source:c:\users\equipo\desktop\carpeta drive\utn\2º cuatrimestre\programacion\trabajo final\concesionaria utn\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	"./lib/autos.h"
+	"./lib/personal.h"
+	"./lib/utilidades.h"
+	"./lib/gotoxy.h"
+
+1667351383 source:c:\users\equipo\desktop\carpeta drive\utn\2º cuatrimestre\programacion\trabajo final\concesionaria utn\lib\personal.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"./autos.h"
+	"./personal.h"
+	"./utilidades.h"
+	"./gotoxy.h"
+
+1667344451 source:c:\users\equipo\desktop\carpeta drive\utn\2º cuatrimestre\programacion\trabajo final\concesionaria utn\lib\utilidades.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"./autos.h"
+	"./personal.h"
+	"./utilidades.h"
+	"./gotoxy.h"
+
+1491399896 c:\users\equipo\desktop\carpeta drive\utn\2º cuatrimestre\programacion\trabajo final\concesionaria utn\lib\gotoxy.h
+
+1491400450 source:c:\users\equipo\desktop\carpeta drive\utn\2º cuatrimestre\programacion\trabajo final\concesionaria utn\lib\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1491399896 g:\otros ordenadores\mi portátil\carpeta drive\utn\2º cuatrimestre\programacion\trabajo final\concesionaria utn\lib\gotoxy.h
+
+1491400450 source:g:\otros ordenadores\mi portátil\carpeta drive\utn\2º cuatrimestre\programacion\trabajo final\concesionaria utn\lib\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1491400450 source:d:\utn2022\programacion 2\concesionaria_10-11-22\concesionaria utn\lib\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1668067036 source:d:\utn2022\programacion 2\concesionaria_10-11-22\concesionaria utn\lib\personal.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"./autos.h"
+	"./personal.h"
+	"./utilidades.h"
+	"./gotoxy.h"
+
+1668041888 d:\utn2022\programacion 2\concesionaria_10-11-22\concesionaria utn\lib\autos.h
+
+1668036904 d:\utn2022\programacion 2\concesionaria_10-11-22\concesionaria utn\lib\personal.h
+
+1667344452 d:\utn2022\programacion 2\concesionaria_10-11-22\concesionaria utn\lib\utilidades.h
+
+1491399896 d:\utn2022\programacion 2\concesionaria_10-11-22\concesionaria utn\lib\gotoxy.h
+
+1668066642 source:d:\utn2022\programacion 2\concesionaria_10-11-22\concesionaria utn\lib\utilidades.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"./autos.h"
+	"./personal.h"
+	"./utilidades.h"
+	"./gotoxy.h"
+
+1668066950 source:d:\utn2022\programacion 2\concesionaria_10-11-22\concesionaria utn\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	"./lib/autos.h"
+	"./lib/personal.h"
+	"./lib/utilidades.h"
+	"./lib/gotoxy.h"
+
+1668044096 source:d:\utn2022\programacion 2\concesionaria_10-11-22\concesionaria utn\lib\autos.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"./autos.h"
+	"./personal.h"
+	"./utilidades.h"
+	"./gotoxy.h"
+
+1668044096 source:j:\utn2022\programacion 2\concesionaria_10-11-22\concesionaria utn\lib\autos.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"./autos.h"
+	"./personal.h"
+	"./utilidades.h"
+	"./gotoxy.h"
+
+1668041888 j:\utn2022\programacion 2\concesionaria_10-11-22\concesionaria utn\lib\autos.h
+
+1668036904 j:\utn2022\programacion 2\concesionaria_10-11-22\concesionaria utn\lib\personal.h
+
+1668093276 j:\utn2022\programacion 2\concesionaria_10-11-22\concesionaria utn\lib\utilidades.h
+
+1491399896 j:\utn2022\programacion 2\concesionaria_10-11-22\concesionaria utn\lib\gotoxy.h
+
+1491400450 source:j:\utn2022\programacion 2\concesionaria_10-11-22\concesionaria utn\lib\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1668093276 source:j:\utn2022\programacion 2\concesionaria_10-11-22\concesionaria utn\lib\utilidades.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"./autos.h"
+	"./personal.h"
+	"./utilidades.h"
+	"./gotoxy.h"
+
+1668081102 source:j:\utn2022\programacion 2\concesionaria_10-11-22\concesionaria utn\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	<locale.h>
+	"./lib/autos.h"
+	"./lib/personal.h"
+	"./lib/utilidades.h"
+	"./lib/gotoxy.h"
+
+1668094262 source:j:\utn2022\programacion 2\concesionaria_10-11-22\concesionaria utn\lib\personal.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"./autos.h"
+	"./personal.h"
+	"./utilidades.h"
+	"./gotoxy.h"
+
+1668196408 source:c:\users\usuario\desktop\concesionaria_10-11-22\concesionaria utn\lib\autos.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"./autos.h"
+	"./personal.h"
+	"./utilidades.h"
+	"./gotoxy.h"
+
+1668041888 c:\users\usuario\desktop\concesionaria_10-11-22\concesionaria utn\lib\autos.h
+
+1668036904 c:\users\usuario\desktop\concesionaria_10-11-22\concesionaria utn\lib\personal.h
+
+1668093276 c:\users\usuario\desktop\concesionaria_10-11-22\concesionaria utn\lib\utilidades.h
+
+1491399896 c:\users\usuario\desktop\concesionaria_10-11-22\concesionaria utn\lib\gotoxy.h
+
+1491400450 source:c:\users\usuario\desktop\concesionaria_10-11-22\concesionaria utn\lib\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1668171748 source:c:\users\usuario\desktop\concesionaria_10-11-22\concesionaria utn\lib\personal.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"./autos.h"
+	"./personal.h"
+	"./utilidades.h"
+	"./gotoxy.h"
+
+1668126246 source:c:\users\usuario\desktop\concesionaria_10-11-22\concesionaria utn\lib\utilidades.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"./autos.h"
+	"./personal.h"
+	"./utilidades.h"
+	"./gotoxy.h"
+
+1668081102 source:c:\users\usuario\desktop\concesionaria_10-11-22\concesionaria utn\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	<locale.h>
+	"./lib/autos.h"
+	"./lib/personal.h"
+	"./lib/utilidades.h"
+	"./lib/gotoxy.h"
+
+1668242620 source:d:\utn2022\programacion 2\concesionaria 12-11-22\lib\autos.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"./autos.h"
+	"./personal.h"
+	"./utilidades.h"
+	"./gotoxy.h"
+
+1668242610 d:\utn2022\programacion 2\concesionaria 12-11-22\lib\autos.h
+
+1668197164 d:\utn2022\programacion 2\concesionaria 12-11-22\lib\personal.h
+
+1668236368 d:\utn2022\programacion 2\concesionaria 12-11-22\lib\utilidades.h
+
+1668197164 d:\utn2022\programacion 2\concesionaria 12-11-22\lib\gotoxy.h
+
+1668197164 source:d:\utn2022\programacion 2\concesionaria 12-11-22\lib\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1668242532 source:d:\utn2022\programacion 2\concesionaria 12-11-22\lib\personal.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"./autos.h"
+	"./personal.h"
+	"./utilidades.h"
+	"./gotoxy.h"
+
+1668237902 source:d:\utn2022\programacion 2\concesionaria 12-11-22\lib\utilidades.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"./autos.h"
+	"./personal.h"
+	"./utilidades.h"
+	"./gotoxy.h"
+
+1668197164 source:d:\utn2022\programacion 2\concesionaria 12-11-22\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	<locale.h>
+	"./lib/autos.h"
+	"./lib/personal.h"
+	"./lib/utilidades.h"
+	"./lib/gotoxy.h"
+
+1668459698 source:j:\utn2022\programacion 2\concesionaria 12-11-22\lib\autos.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"./autos.h"
+	"./personal.h"
+	"./utilidades.h"
+	"./gotoxy.h"
+
+1668242610 j:\utn2022\programacion 2\concesionaria 12-11-22\lib\autos.h
+
+1668197164 j:\utn2022\programacion 2\concesionaria 12-11-22\lib\personal.h
+
+1668236368 j:\utn2022\programacion 2\concesionaria 12-11-22\lib\utilidades.h
+
+1668197164 j:\utn2022\programacion 2\concesionaria 12-11-22\lib\gotoxy.h
+
+1668197164 source:j:\utn2022\programacion 2\concesionaria 12-11-22\lib\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1668459974 source:j:\utn2022\programacion 2\concesionaria 12-11-22\lib\personal.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"./autos.h"
+	"./personal.h"
+	"./utilidades.h"
+	"./gotoxy.h"
+
+1668273754 source:j:\utn2022\programacion 2\concesionaria 12-11-22\lib\utilidades.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"./autos.h"
+	"./personal.h"
+	"./utilidades.h"
+	"./gotoxy.h"
+
+1668197164 source:j:\utn2022\programacion 2\concesionaria 12-11-22\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	<locale.h>
+	"./lib/autos.h"
+	"./lib/personal.h"
+	"./lib/utilidades.h"
+	"./lib/gotoxy.h"
+
+1669148846 source:c:\users\usuario\desktop\concesionaria 12-11-22\lib\autos.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"./autos.h"
+	"./personal.h"
+	"./utilidades.h"
+	"./gotoxy.h"
+
+1668489242 c:\users\usuario\desktop\concesionaria 12-11-22\lib\autos.h
+
+1668489242 c:\users\usuario\desktop\concesionaria 12-11-22\lib\personal.h
+
+1668489242 c:\users\usuario\desktop\concesionaria 12-11-22\lib\utilidades.h
+
+1668489242 c:\users\usuario\desktop\concesionaria 12-11-22\lib\gotoxy.h
+
+1668489242 source:c:\users\usuario\desktop\concesionaria 12-11-22\lib\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1669148720 source:c:\users\usuario\desktop\concesionaria 12-11-22\lib\personal.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"./autos.h"
+	"./personal.h"
+	"./utilidades.h"
+	"./gotoxy.h"
+
+1668489242 source:c:\users\usuario\desktop\concesionaria 12-11-22\lib\utilidades.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"./autos.h"
+	"./personal.h"
+	"./utilidades.h"
+	"./gotoxy.h"
+
+1668489242 source:c:\users\usuario\desktop\concesionaria 12-11-22\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	<locale.h>
+	"./lib/autos.h"
+	"./lib/personal.h"
+	"./lib/utilidades.h"
+	"./lib/gotoxy.h"
+
+1669148846 source:c:\users\isaia\desktop\archivos (6)\concesionaria 12-11-22\lib\autos.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"./autos.h"
+	"./personal.h"
+	"./utilidades.h"
+	"./gotoxy.h"
+
+1668489242 c:\users\isaia\desktop\archivos (6)\concesionaria 12-11-22\lib\autos.h
+
+1668489242 c:\users\isaia\desktop\archivos (6)\concesionaria 12-11-22\lib\personal.h
+
+1668489242 c:\users\isaia\desktop\archivos (6)\concesionaria 12-11-22\lib\utilidades.h
+
+1668489242 c:\users\isaia\desktop\archivos (6)\concesionaria 12-11-22\lib\gotoxy.h
+
+1668489242 source:c:\users\isaia\desktop\archivos (6)\concesionaria 12-11-22\lib\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1669148720 source:c:\users\isaia\desktop\archivos (6)\concesionaria 12-11-22\lib\personal.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"./autos.h"
+	"./personal.h"
+	"./utilidades.h"
+	"./gotoxy.h"
+
+1668489242 source:c:\users\isaia\desktop\archivos (6)\concesionaria 12-11-22\lib\utilidades.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"./autos.h"
+	"./personal.h"
+	"./utilidades.h"
+	"./gotoxy.h"
+
+1668489242 source:c:\users\isaia\desktop\archivos (6)\concesionaria 12-11-22\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	<locale.h>
+	"./lib/autos.h"
+	"./lib/personal.h"
+	"./lib/utilidades.h"
+	"./lib/gotoxy.h"
+
+1669148846 source:c:\users\usuario\desktop\proyecto final concesionaria\lib\autos.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"./autos.h"
+	"./personal.h"
+	"./utilidades.h"
+	"./gotoxy.h"
+
+1668489242 c:\users\usuario\desktop\proyecto final concesionaria\lib\autos.h
+
+1668489242 c:\users\usuario\desktop\proyecto final concesionaria\lib\personal.h
+
+1668489242 c:\users\usuario\desktop\proyecto final concesionaria\lib\utilidades.h
+
+1668489242 c:\users\usuario\desktop\proyecto final concesionaria\lib\gotoxy.h
+
+1668489242 source:c:\users\usuario\desktop\proyecto final concesionaria\lib\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1669148720 source:c:\users\usuario\desktop\proyecto final concesionaria\lib\personal.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"./autos.h"
+	"./personal.h"
+	"./utilidades.h"
+	"./gotoxy.h"
+
+1668489242 source:c:\users\usuario\desktop\proyecto final concesionaria\lib\utilidades.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"./autos.h"
+	"./personal.h"
+	"./utilidades.h"
+	"./gotoxy.h"
+
+1668489242 source:c:\users\usuario\desktop\proyecto final concesionaria\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	<locale.h>
+	"./lib/autos.h"
+	"./lib/personal.h"
+	"./lib/utilidades.h"
+	"./lib/gotoxy.h"
+
+1669148846 source:c:\users\usuario\desktop\facultad\segundo cuatrimestre\laboratorio ii\proyecto final concesionaria\lib\autos.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"./autos.h"
+	"./personal.h"
+	"./utilidades.h"
+	"./gotoxy.h"
+
+1668489242 c:\users\usuario\desktop\facultad\segundo cuatrimestre\laboratorio ii\proyecto final concesionaria\lib\autos.h
+
+1668489242 c:\users\usuario\desktop\facultad\segundo cuatrimestre\laboratorio ii\proyecto final concesionaria\lib\personal.h
+
+1668489242 c:\users\usuario\desktop\facultad\segundo cuatrimestre\laboratorio ii\proyecto final concesionaria\lib\utilidades.h
+
+1668489242 c:\users\usuario\desktop\facultad\segundo cuatrimestre\laboratorio ii\proyecto final concesionaria\lib\gotoxy.h
+
+1668489242 source:c:\users\usuario\desktop\facultad\segundo cuatrimestre\laboratorio ii\proyecto final concesionaria\lib\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1669148720 source:c:\users\usuario\desktop\facultad\segundo cuatrimestre\laboratorio ii\proyecto final concesionaria\lib\personal.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"./autos.h"
+	"./personal.h"
+	"./utilidades.h"
+	"./gotoxy.h"
+
+1668489242 source:c:\users\usuario\desktop\facultad\segundo cuatrimestre\laboratorio ii\proyecto final concesionaria\lib\utilidades.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"./autos.h"
+	"./personal.h"
+	"./utilidades.h"
+	"./gotoxy.h"
+
+1668489242 source:c:\users\usuario\desktop\facultad\segundo cuatrimestre\laboratorio ii\proyecto final concesionaria\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	<locale.h>
+	"./lib/autos.h"
+	"./lib/personal.h"
+	"./lib/utilidades.h"
+	"./lib/gotoxy.h"
+
